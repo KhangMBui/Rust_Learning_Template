@@ -1,4 +1,4 @@
-# RUST PROGRAMMING LANGUAGE
+# A Template for Learning Rust
 
 # Hello World Tutorial:
 
