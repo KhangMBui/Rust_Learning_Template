@@ -37,7 +37,7 @@ A scalar type represents a single value. Rust has four primary scalar types:
   - Rust defaults integer types to **i32**. Some other Signed Integer Types are i8, i16, i64, i128, isize.
   - Unsigned Integer Types are u8, u16, u32, u64, u128, and usize.
   - Example:
-    ```bash
+    ```Rust
     fn main() {
       let age: i32 = 25;
     }
@@ -46,7 +46,7 @@ A scalar type represents a single value. Rust has four primary scalar types:
   - Represents number with decimal points. 
   - Rust's floating-point types are **f32** and **f64**, which are 32 bits and 64 bits in size. The default type is **f64**.
   - Example:
-    ```bash
+    ```Rust
     fn main() {
       let x = 2.0; // f64
       let y: f32 = 3.0; // f32
@@ -57,7 +57,7 @@ A scalar type represents a single value. Rust has four primary scalar types:
   - The main way to use Boolean values is through conditionals, such as an **if** expression.
   - Keyword: bool
   - Example:
-  ```bash
+  ```Rust
   fn main() {
     let t = true;
     let f: bool = false; // with explicit type annotation.
@@ -67,7 +67,7 @@ A scalar type represents a single value. Rust has four primary scalar types:
   - The language's most primitive alphabetic type.
   - Specified with single quotes.
   - Example:
-  ```bash
+  ```Rust
   fn main() {
     let c = 'z';
     let z: char = 'Z'; // with explicit type annotation
@@ -81,7 +81,7 @@ Compound types can group multiple values into one type. Rust has two primitive c
   - A tuple is a general way of grouping together a number of values with variety of types into one compound type.
   - Tuples have a fixed length: once declared, they cannot be modified to grow or shrink in size.
   - Example:
-  ```RUST
+  ```Rust
   fn main() {
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 
