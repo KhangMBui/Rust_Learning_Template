@@ -1,3 +1,5 @@
+# RUST PROGRAMMING LANGUAGE
+
 # Hello World Tutorial:
 
 Watch this video for a quick tutorial on how to create a Rust project, write a basic Rust closure, and run it: https://www.youtube.com/watch?v=gtXUPOZ7_mA
