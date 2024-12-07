@@ -18,7 +18,7 @@ Watch this video for a quick tutorial on how to create a Rust project, write a b
 
 ### Example:
 
-```bash
+```Rust
 fn main() {
   println!("Hello, world!");
 }
